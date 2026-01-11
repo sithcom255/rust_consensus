@@ -1,0 +1,10 @@
+[package]
+name = "jan_small_concensus"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mio = { version = "1", features = ["net", "os-poll"] }
+serde = { version = "1.0.228", features = ["derive"] }
+bytes = { version = "1.11.0" }
+
